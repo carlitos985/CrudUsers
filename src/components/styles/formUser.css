@@ -1,0 +1,58 @@
+.form_background{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    border:solid 1px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*backdrop-filter es para que el fonso se vea borroso*/
+    backdrop-filter: blur(2px);
+    /*Aqui hago que aparezca y desaparezca */
+    transform: scale(0);
+    transition: transform .25s;
+}
+.form_background.able{
+    transform: scale(1);
+    transition: transform .25s;
+}
+.form_container{
+    background-color: gray;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.form_title{
+    text-align: center;
+}
+
+.form_close:hover{
+    color: black;
+
+}
+
+.form_close{
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+    right: 10px;
+    color: rgb(223, 35, 35);
+}
+.global_form{
+    display: flex;
+}
+.form_btn{
+    background-color: rgb(223, 35, 35);
+    border-radius: 5px;
+}
+.form_btn:hover{
+    transform: scale(1.05);
+    
+}

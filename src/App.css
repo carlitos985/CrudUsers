@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.frame_card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.create_button{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    min-width: 200px;
+    
+}
+.create_button button{
+    background-color: rgb(223, 35, 35);
+    border-radius: 5px;
+
+}
+.create:hover{
+    cursor: pointer;
+    border: solid 1px purple;
+    transform: scale(1.05);
+
+}
+h2{
+    font-weight: 900;
+    -webkit-text-fill-color: white;
+-webkit-text-stroke: 0.3px rgb(223, 35, 35);
+}

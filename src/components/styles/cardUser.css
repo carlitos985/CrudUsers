@@ -1,0 +1,64 @@
+.box_button{
+    gap: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.delete_button{
+    background-color: rgb(223, 35, 35);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.edit_button {
+   border-radius: 5px;
+}
+.delete_button:hover{
+    border: solid 1px purple;
+    transform: scale(1.05);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.edit_button:hover{
+    border: solid 1px purple;
+    transform: scale(1.05);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.article_user{
+    border: solid 1px;
+    max-width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: left;
+}
+.frame_card{
+    display: flex;
+    gap: 10px;
+   
+     
+}
+
+.article_user{
+    background-color:#FFFFFF;
+    color: black;
+   
+}
+.article_user:hover{
+    border: solid 1px purple;
+    transform: scale(1.05);
+    transition: transform .5s;
+}
+
+.user_text{
+    color: #0F0F2D;
+}
+
+.subtitle_text{
+    color: grey;
+}
+.user_list{
+    list-style: none;
+}
+hr{
+    border-color: rgb(223, 35, 35);
+}
